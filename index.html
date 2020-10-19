@@ -2,59 +2,69 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="./recursos/css/app.css?v=0.0.3" media="all">
+	<link rel="stylesheet" type="text/css" href="./recursos/css/app.css?v=0.0.2" media="all">
 	<title>Examen</title>
 </head>
-<body>
+<body id="top1">
+
+	<!-- Inicia, este es la etiqueta (a) fija para la funcion del boton para regresarte a la parte  de arriba  -->
+	<a href="#top" class="btonarriba" style="display: block;"><img src="./recursos/img/arriba.png"></a>
+	<!-- Termina etiqueta bonton fijo -->
+
+	<!-- Inicia la parte de la cabezera fija de la paguina -->
 	<div class="parte1">
 		<div class="part1">
+			<!-- imagen de la derecha de la cabezara -->
 			<img src="./recursos/img/principal1.png">
 
-			<a href="#" class="letra">
-				Jose Aron Gonzalez Gonzalez
+			<a href="#bot2" class="letra">
+				Jose Aron
 			</a>
 
-			<a href="#" class="blog">
+			<a href="https://www.google.com.mx"  class="blog">
 				Blog
 			</a>
-			<a href="#" class="contact">
+			<a href="#contacto" class="contact">
 				Contact
 			</a>
-			<a href="#" class="pricing">
+			<a href="#pricin" class="pricing">
 				Pricing
 			</a>
-			<a href="#" class="references">
+			<a href="#referencia" class="references">
 				References
 			</a>
-			<a href="#" class="about">
-				About
+			<a href="#bot2" class="about">
+				About Me
 			</a>
 
-		</div>
-		
+		</div>	
 	</div>
+	<!-- finaliza la parte de la cabezera fija de la paguina -->
 
+	<!-- Inicia, Esta es la parte principal donde salen algunos botones y direcciones a paguinas reconocidaas -->
 	<div class="perfil">
 		<div class="imgPerfil">
 			<img src="./recursos/img/principal1.png">
 		</div>
 		<div class="redesSociales">
-			<a href="#" > <img src="#"></a>
-			<a href="#" > <img src="#"></a>
+			<a href="https://www.facebook.com"> <img class="fa" src="./recursos/img/facebook.png"></a>
+			<a href="https://twitter.com/?lang=es" > <img class="tw" src="./recursos/img/twiter.png"></a>
 			<h2>Jose Aron Gonzalez</h2>
-			<a href="#" > <img src="#"></a>
-			<a href="#" > <img src="#"></a>
+			<a href="https://www.google.com" > <img class="go" src="./recursos/img/googlemas.png"></a>
+			<a href="https://es.linkedin.com" > <img class="in" src="./recursos/img/in.png"></a>
 		</div>
 		<div class="frase">
-			<a href="#"> <img src="#"></a>
+			<a href="#"> <img src="./recursos/img/lenguaje.png"></a>
 			<h3>I love programming</h3>
 			<!-- <a href="#" role="button">hello</a> -->
 			<br>
-			<button>hello 2</button>
-			<button>hello 3</button>
+			<a href="#bot2"> <button id="bot1" ><img  src="./recursos/img/sonrisa.png">Know me better</button></a>
+			<a href="#contacto"><button id="bot2"><img src="./recursos/img/rayo.png"> Hire me</button></a>
 		</div>
 	</div>
+	<!-- Termina la parte donde salen algunos botones y direcciones a paguinas reconocidaas -->
 
+	<!-- Esta es la informacion sobre una persona su nombre y etc -->
 	<div class="informacion">
 		<img src="./recursos/img/principal1.png">
 		<div class="nombreInfo">
@@ -62,10 +72,12 @@
 		</div>
 		
 		<p class="parrafoInf">
-			At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+			At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.facilis est et expedita distinctio.
 		</p>
 	</div>
+	<!-- Finaliza la parte de la informacion sobre una persona su nombre y etc -->
 
+	<!--Inicia, Esta  parte es la donde se informa (What i do)Lo que hace la pagina-->
 	<div class="whatPrincipal">
 		<div class="what_i_do">
 			<h2>What i do</h2>
@@ -75,15 +87,15 @@
 		</div>
 		<div class="cont">
 			<div class="seoFirst">
-				<img src="#">
+				<img src="./recursos/img/i1.png">
 				<h3>SEO first</h3>
 				<p>
 					At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.
 				</p>
 			</div>
 			<div class="firstclassdesign">
-				<img src="#">
-				<h3>hello</h3>
+				<img src="./recursos/img/i2.png">
+				<h3>Firstclass design</h3>
 				
 				<p>
 					At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.
@@ -91,7 +103,7 @@
 			</div>
 			<div class="fully">
 				
-				<img src="#">
+				<img src="./recursos/img/i3.png">
 				<h3>Fully responsive</h3>
 				<p>
 					At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.
@@ -99,7 +111,7 @@
 			</div>
 			<div class="browser">
 				
-				<img src="#">
+				<img src="./recursos/img/i4.png">
 				<h3>Browser friendly</h3>
 				<p>
 					At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.
@@ -107,8 +119,423 @@
 			</div>
 		</div>
 	</div>
-	<div>
-		<h2>hello</h2>
+	<!--Termina la parte donde se informa (What i do)Lo que hace la pagina-->
+
+	<!--Inicia, Esta  parte es una pequeña seccion de informacion de uso de esta pagina-->
+	<div class="separador">
+		<div class="contenedorSeparador">
+			<div class="tab">
+				<div class="col1">
+					<img src="./recursos/img/usuari.png">
+					<p>
+						<span>100</span> Happy clients
+					</p>
+				</div>
+				<div class="col2">
+					<img src="./recursos/img/taza.png">
+					<p>
+						<span>250</span> cups of coffee
+					</p>
+				</div>
+				<div class="col3">
+					<img src="./recursos/img/programacion.png">
+					<p>
+						<span>2500</span> lines of codes
+					</p>
+				</div>
+				<div class="col4">
+					<img src="./recursos/img/email.png">
+					<p>
+						<span>300</span> emails
+					</p>
+				</div>
+				<div class="col5">
+					<img src="./recursos/img/telefono.png">
+					<p>
+						<span>50</span> hours phone calls
+					</p>
+				</div>
+				<div class="col6">
+					<img src="./recursos/img/facebook1.png">
+					<p>
+						<span>24</span> hours facebook
+					</p>
+				</div>
+			</div>
+
+		</div>
 	</div>
+	<!--Termina la parte de una pequeña seccion de informacion de uso de esta pagina-->
+
+	<!-- Inicia una seccion donde se informa el tipo de trabajo que se realiza -->
+	<div class="mywork">
+		<div class="contenidomywork">
+			<h2>My latest work</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.
+			</p>
+
+			<div class="contenedormywork">
+				<div class="izquierda">
+					<div class="browserfriendly">
+						<div class="friendimg">
+							<img src="./recursos/img/pieza.png">
+						</div>
+						
+						<div class="friendi">
+							<p>
+								<span>Browser friendly</span>
+							</p>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem <br>ipsum dolor sit amet, consectetur ad.
+							</p>	
+						</div>
+							
+					</div>
+					<div class="firstclass">
+						<div class="firstimg">
+							<img src="./recursos/img/trofeo.png">
+						</div>
+						
+						<div class="firts">
+							<p>
+								<span>First class design</span>
+							</p>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem <br>ipsum dolor sit amet, consectetur ad.
+							</p>	
+						</div>
+					</div>
+					<div class="profesional">
+						<div class="profesionalimg">
+							<img src="./recursos/img/like.png">
+						</div>
+						
+						<div class="prof">
+							<p>
+								<span>Profesional scheme for freelancers</span>
+							</p>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem <br>ipsum dolor sit amet, consectetur ad.
+							</p>	
+						</div>
+					</div>
+					<div class="fullyp">
+						<div class="fullyimg">
+							<img src="./recursos/img/redimensionar.png">
+						</div>
+						
+						<div class="full">
+							<p>
+								<span>Fully responsive</span>
+							</p>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem <br>ipsum dolor sit amet, consectetur ad.
+							</p>	
+						</div>
+					</div>
+
+					<div class="bottonprimer">
+						<button><img src="./recursos/img/rayo.png"> See in action</button>
+					</div>
+				</div>
+				<div class="derecha">
+					<div class="partederecha">
+						<div class="partederechaimg">
+							<img src="./recursos/img/computadora1.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Termina la parte de la informacion de trabajo  -->
+
+	<!-- Inicia,en esta seccion se habla sobre una pequeña frase inspiradora -->
+	<div class="separador2">
+		<div class="contenedorSeparador2">
+			<div class="tab2">
+				<blockquote class="block">
+
+					<p class="comill">
+						<img class="comillaizq" src="./recursos/img/comillas.png">
+						 Design is not just what it looks like and feels like. Design is how it works.
+					</p>
+					<p class="nameJ">
+						Jose Aron -
+					</p>
+				</blockquote>
+			</div>
+
+		</div>
+	</div>
+	<!-- Finaliza,en esta seccion en la que se habla sobre una pequeña frase inspiradora -->
+
+	<!-- Inicia, Esta parte se informa sobre una galeria de referencias de trabajos -->
+	<div id="referencia" class="referen">
+		<div class="contenireferen">
+			<h2>Reference</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.
+			</p>
+
+			<div class="contenedorreferen">
+				<div class="izquierda">
+					<table class="galeria">
+						<tr>
+							<td>
+								<img src="./recursos/img/ref1.png">
+							</td>
+							<td>
+								<img src="./recursos/img/ref2.png">
+							</td>
+							<td>
+								<img src="./recursos/img/ref3.png">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="./recursos/img/ref4.png">
+							</td>
+							<td>
+								<img src="./recursos/img/ref5.png" alt="hola">
+							</td>
+							<td>
+								<img src="./recursos/img/ref6.png">
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Finaliza, la parte donde se informa sobre una galeria de referencias de trabajos -->
+
+	<!-- Inicia, Esta seccion habla sobre las ultimas publicaciones en nuestra pagina web -->
+	<div class="blogs">
+		<div class="contenedorblog">
+			<h2>
+				Latest Blog Posts
+			</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.
+			</p>
+		</div>
+		<div class="contenedorLol">
+			<div class="pos">
+				<table class="loren">
+					<tr>
+						<td class="lor1">
+							<div class="lorem1">
+								<h3>Lorem Ipsum</h3>
+								<p>
+									At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+								</p>
+								<div class="bt1"><a href="#top"><button>Read More</button></a></div>
+							</div>
+							<div class="botones1">
+
+								<button><img src="./recursos/img/dialogo.png"> 352</button>
+								<button><img src="./recursos/img/calendario.png"> 21/03/2014</button>
+								<a href="#top"><button style="width: 73px;"><img src="./recursos/img/facebook1.png"></button></a>
+								<a href="#top"><button><img src="./recursos/img/twiter.png"></button></a>
+							</div>
+						</td>
+						<td class="lor2">
+							<div class="lorem2">
+								<h3>Lorem Ipsum</h3>
+								<p>
+									At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+								</p>
+								<div class="bt2"><a href="#top"><button>Read More</button></a></div>
+							</div>
+							<div class="botones2">
+								<button><img src="./recursos/img/dialogo.png"> 352</button>
+								<button><img src="./recursos/img/calendario.png"> 21/03/2014</button>
+								<a href="#top"><button style="width: 73px;"><img src="./recursos/img/facebook1.png"></button></a>
+								<a href="#top"><button><img src="./recursos/img/twiter.png"></button></a>
+							</div>
+						</td>
+						<td class="lor3">
+							<div class="lorem3">
+								<h3>Lorem Ipsum</h3>
+								<p>
+									At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+								</p>
+								<a href="#top"><div class="bt3"><button>Read More</button></div></a>
+							</div>
+							<div class="botones3">
+								<button><img src="./recursos/img/dialogo.png"> 352</button>
+								<button><img src="./recursos/img/calendario.png"> 21/03/2014</button>
+								<a href="#top"><button><img src="./recursos/img/facebook1.png"></button></a>
+								<a href="#top"><button style="width: 73px;"><img src="./recursos/img/twiter.png"></button></a>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<!-- Finzaliza la seccion que habla sobre las ultimas publicaciones en nuestra pagina web -->
+
+	<!-- Inicia, Esta parte informa sobre los precios que se cobran para la creacion de trabajos -->
+	<div id="pricin" class="pricingPlans">
+		<div class="contenprici">
+			<h2>Pricing plans</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.
+			</p>
+
+			<div class="contenedorpricing">
+				<div class="izquierda">
+					<table class="price">
+						<tr>
+							<td class="pp1">
+								<div class="price1">
+									<div><h3>Lite</h3></div>
+									<div class="p1">$99</div>
+								</div>
+								<div style="background-color: #efefef;margin-right: 25px;">
+									<div class="dat1">
+										<p><span>150</span> Lorem Ipsum</p>
+										<p><img src="./recursos/img/correcto.png"> Lorem Ipsum</p>
+										<p><img src="./recursos/img/x.png"> Lorem Ipsum</p>
+										<p><span>150</span> Lorem Ipsum</p>		
+									</div>
+								</div>
+								<div class="order1">
+									<button>Oder</button>
+								</div>
+							</td>
+							<td>
+								<div class="price2">
+									<div><h3>Standard</h3></div>
+									<div class="p2">$150</div>
+								</div>
+								<div style="background-color: #efefef;margin-right: 25px;">
+									<div class="dat2">
+										<p><span>150</span> Lorem Ipsum</p>
+										<p><img src="./recursos/img/correcto.png"> Lorem Ipsum</p>
+										<p><img src="./recursos/img/x.png"> Lorem Ipsum</p>
+										<p><span>150</span> Lorem Ipsum</p>	
+									</div>
+								</div>
+								<div class="order2">
+									<button>Order</button>
+								</div>
+							</td>
+							<td>
+								<div class="price3">
+									<div><h3>Premium</h3></div>
+									<div class="p3">$350</div>
+								</div>
+								<div style="background-color: #efefef;margin-right: 25px;">
+									<div class="dat3">
+										<p><span>150</span> Lorem Ipsum</p>
+										<p><img src="./recursos/img/correcto.png"> Lorem Ipsum</p>
+										<p><img src="./recursos/img/x.png"> Lorem Ipsum</p>
+										<p><span>150</span> Lorem Ipsum</p>	
+									</div>
+								</div>
+								<div class="order3">
+									<button>Order</button>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Termina la parte que informa sobre los precios que se cobran para la creacion de trabajos -->
+
+	<!--Inicia, Esta seccion habla sobre testimonios sobre el buen trabajo que realizamos-->
+	<div class="testimon">
+		<div class="testimonial">
+			<h2>Testimonials</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.
+			</p>
+		</div>
+		<div class="personas">
+			<div class="persona1">
+				<img src="./recursos/img/per1.png">
+				<div class="perso1">
+					<h3>John Doe</h3>
+					<span>Webdesigner</span>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed volutpat est. Donec lobortis interdum volutpat. Maecenas bibendum dui quis pharetra tincidunt. Praesent posuere eu velit at scelerisque.
+				</p>	
+				</div>	
+			</div>
+			<div class="persona2">
+				<img src="./recursos/img/per2.png">
+				<div class="perso2" >
+					<h3>John Doe</h3>
+					<span>Webdesigner</span>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed volutpat est. Donec lobortis interdum volutpat. Maecenas bibendum dui quis pharetra tincidunt. Praesent posuere eu velit at scelerisque.
+				</p>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--termina la seccion que habla sobre testimonios -->
+
+	<!--Inicia La parte donde te puedes registrar -->
+	<div id="contacto">
+		<div class="contactocontenedor">
+			<div class="contactoInf">
+				<h1>Contact me</h1>	
+				<div>
+					<div class="formulario">
+						<div class="datosin">
+							<h3>Leave a message</h3>
+							<input type="text" name="nombre" size="35" placeholder="Nombre">
+
+							<input type="text" name="apellido" size="35" placeholder="Apellidos">
+
+							<input type="email" placeholder="Email" size="35" id="email">
+
+							<textarea placeholder="Comentarios" ></textarea>
+							<div style="text-align: center;margin-top: 20px">
+								<button>Send Menssage</button>	
+							</div>
+							
+						</div>
+						<div class="datosguard">
+							<img src="./recursos/img/aron.png">
+							<div class="datosinfo">
+								<p>Jose Aron </p>
+								<p>colonia Santa fe</p>	
+								<p>B.C.S 23086</p>
+								<p>123-456-7890</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Termina La parte donde te puedes registrar -->
+
+	<!--Inicia La parte ultima de la pagina -->
+	<div class="final">
+		<div class="finalimgs">
+			<div>
+				<img src="./recursos/img/facebook.png">
+				<img src="./recursos/img/twiter.png">
+				<img src="./recursos/img/googlemas.png">
+				<img src="./recursos/img/in.png">
+			</div>
+			<div>
+				<p>© Jose Aron La Paz B.C.S 2020 All right reserved. Designed by</p>
+			</div>
+		</div>
+		<div>
+			
+		</div>
+	</div>
+	<!--Finaliza La parte ultima de la pagina -->
 </body>
 </html>
